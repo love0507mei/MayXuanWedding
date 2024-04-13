@@ -28,7 +28,7 @@ section[class*="bg"] {
 
 .bgBanner {
     background-image: url('../img/COZY5198.jpg');
-    background-size: cover;
+    background-size: auto 100%;
     background-position: bottom 20% center;
     background-attachment: fixed;
 }
@@ -76,7 +76,7 @@ section[class*="bg"] {
     padding: 2rem 0rem;
 }
     .sectionTwo .container .row .dvCouple {
-        padding:1rem 0rem;
+        padding-top: 1rem;
     }
     .sectionTwo .container .row div#groom {
         width: 250px;
