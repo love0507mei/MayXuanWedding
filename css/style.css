@@ -1,0 +1,208 @@
+html {
+    font-family: "Microsoft JhengHei";
+}
+
+nav {
+    background-color: rgba(191, 0, 19, 0.8);
+    font-weight: bold;
+}
+
+    nav .navbar-nav {
+        flex: 1;
+        margin: auto !important;
+        display: flex;
+        justify-content: space-around;
+    }
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(var(--txt,var(--color_18,color_18)));
+}
+
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #462a20;
+}
+
+section[class*="bg"] {
+    min-height: 100vh;
+}
+
+.bgBanner {
+    background-image: url('../img/COZY5198.jpg');
+    background-size: cover;
+    background-position: bottom 20% center;
+    background-attachment: fixed;
+}
+
+    .bgBanner p {
+        text-align: center;
+        color: white;
+        font-family: "Bebas Neue", Arial, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+        .bgBanner p.bannerTitle {
+            font-size: 4rem;
+            letter-spacing: 1px;
+            text-shadow: rgb(0, 0, 0) 1px 0 5px;
+        }
+
+    .bgBanner .dvBanner {
+        background-color: rgba(191, 0, 19, 1);
+        padding: 1.5rem;
+        width: auto;
+        font-family: "Microsoft JhengHei", "Bebas Neue", Arial, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+        .bgBanner .dvBanner.container {
+            width: 600px;
+            border-radius: 50px;
+        }
+
+            .bgBanner .dvBanner.container .bannerData:nth-child(1) {
+                border-right: 1px solid white;
+            }
+
+.sectionTwo {
+    background-color: #ffd3d3;
+    color: rgb(132, 0, 13);
+    text-align: center;
+}
+.sectionTwo .container {
+    padding: 2rem 0rem;
+}
+    .sectionTwo .container .row .dvCouple {
+        padding:1rem 0rem;
+    }
+    .sectionTwo .container .row div#groom {
+        width: 250px;
+        height: 250px;
+        background: url('../img/COZY5219.jpg');
+        background-size: 130% auto;
+        background-position: top 70% center;
+        border-radius: 100%;
+        margin: auto;
+    }
+    .sectionTwo .container .row div#bride {
+        width: 250px;
+        height: 250px;
+        background: url('../img/COZY5216.jpg');
+        background-size: 135% auto;
+        background-position: top 70% center;
+        border-radius: 100%;
+        margin: auto;
+    }
+
+.sectionThree {
+    background-color: rgb(132, 0, 13);
+    color: white;
+}
+
+    .sectionThree .row div {
+        padding: 3rem;
+    }
+
+        .sectionThree .row div iframe {
+            width: 100%;
+        }
+
+        .sectionThree .row div:nth-child(2) {
+            text-align: center;
+            font-size: 8rem;
+            padding: 1rem;
+            line-height: 400px;
+        }
+
+        .sectionThree .row div a.formLink {
+            display: inline-block;
+            background-color: #FFC7C7;
+            padding: 8px 20px;
+            border-radius: 25px;
+            border: unset;
+            text-decoration: unset;
+            color: black;
+            transition: all 0.3s ease-out;
+        }
+
+        .sectionThree .row div a.formLink:hover {
+            background-color: #BF0013;
+            color: white;
+        }
+
+        .sectionThree p {
+            color: white;
+        }
+
+.sectionFour {
+    text-align: center;
+    padding: 2rem 0rem;
+    background-color: #ffd3d3;
+    color: rgb(132, 0, 13);
+}
+
+    .sectionFour div#gallery {
+        padding:2rem 3rem;
+    }
+
+@media screen and (max-width: 991.5px) {
+    .bgBanner .dvBanner.container {
+        width: 550px;
+    }
+
+    .sectionThree .row div {
+        padding: 1.5rem 3rem;
+    }
+
+        .sectionThree .row div:nth-child(1) {
+            padding-bottom: 0rem;
+        }
+        .sectionThree .row div:nth-child(2) {
+            text-align: left;
+            font-size: 5rem;
+            padding: 0 3rem;
+            line-height: unset;
+        }
+        .sectionThree .row div:nth-child(3) {
+            padding-top: 0rem;
+        }
+}
+
+@media screen and (max-width: 575.5px) {
+    .bgBanner p.bannerTitle {
+        font-size: 4rem;
+    }
+
+    .bgBanner .dvBanner {
+        font-size: 14px;
+    }
+
+        .bgBanner .dvBanner.container {
+            width: 90%;
+        }
+
+            .bgBanner .dvBanner.container .bannerData:nth-child(1) {
+                padding-top: 12px;
+            }
+}
+
+@media screen and (max-width: 350.5px) {
+    .bgBanner p.bannerTitle {
+        font-size: 3rem;
+    }
+
+    .bgBanner .dvBanner {
+        font-size: 11px;
+    }
+
+        .bgBanner .dvBanner.container {
+            width: 90%;
+        }
+
+            .bgBanner .dvBanner.container .bannerData:nth-child(1) {
+                padding-top: 10px;
+            }
+}
