@@ -150,6 +150,7 @@ section[class*="bg"] {
 
 @media screen and (max-width: 991.5px) {
     .bgBanner {
+        background-position: center;
         background-attachment: unset;
     }
 
