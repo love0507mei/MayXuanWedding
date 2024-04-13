@@ -28,7 +28,7 @@ section[class*="bg"] {
 
 .bgBanner {
     background-image: url('../img/COZY5198.jpg');
-    background-size: auto 100%;
+    background-size: cover;
     background-position: bottom 20% center;
     background-attachment: fixed;
 }
@@ -149,6 +149,10 @@ section[class*="bg"] {
     }
 
 @media screen and (max-width: 991.5px) {
+    .bgBanner {
+        background-attachment: unset;
+    }
+
     .bgBanner .dvBanner.container {
         width: 550px;
     }
