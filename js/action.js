@@ -2,8 +2,10 @@ jQuery(document).ready(function () {
     jQuery("#gallery").unitegallery();
 
     var vHash = window.location.hash;
-    $('.active').removeClass('active');
-    $('nav a[href="' + vHash + '"]').addClass('active');
+    if (vHash !== '') {
+        $('.active').removeClass('active');
+        $('nav a[href="' + vHash + '"]').addClass('active');
+    }
 });
 
 function menuActive(unit) {
