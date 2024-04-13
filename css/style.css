@@ -44,7 +44,7 @@ section[class*="bg"] {
         .bgBanner p.bannerTitle {
             font-size: 4rem;
             letter-spacing: 1px;
-            text-shadow: rgb(0, 0, 0) 1px 0 5px;
+            text-shadow: rgb(132, 0, 13) 1px 0 5px;
         }
 
     .bgBanner .dvBanner {
